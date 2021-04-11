@@ -1,0 +1,58 @@
+body {
+	direction: rtl;
+}
+.hd-form_input  {
+	right: -76px;
+}
+.slick-prev {
+    left: 93%;
+}
+.slick-next {
+    right: 0%;
+    left: 96.5%;
+}
+.popular-heading {
+   padding-right: 90px;
+ }
+ .popular-slider, .partners-slider {
+ 	direction: ltr;
+ }
+ .buy-btn .svg-more-arrow {
+ 	position: absolute;
+    right: -164px;
+    bottom: 12px;
+ }
+ .buy-btn {
+    padding: 10px 0;
+ }
+ .new-heading:before {
+     left: inherit;
+    right: 0;
+ }
+ .login {
+   right: auto;
+   left: 18%;
+ }
+ .calendar-left {
+    padding: 0 0px 0 30px;
+}
+ fieldset:before, fieldset:after {
+   left: 0;
+   right: 3%;
+ }
+ @media screen and (max-width: 992px) {
+ 	.buy-btn .svg-more-arrow {
+ 	display: none;
+   }
+ }
+ @media screen and (max-width: 768px){
+   .popular-heading {
+    padding-right: 0;
+    }
+}
+ @media screen and (max-width: 340px) {
+ 	.head-humburger a {
+ 		position: absolute;
+ 		right: 0;
+ 	}
+ }

@@ -1,0 +1,279 @@
+
+
+@media screen and (max-width: 1200px) {
+ header {
+   height: 50vh;
+ }
+ .gallery-box_bot .gallery_desc {
+   bottom: -49%
+ }
+ .gallery_btn {
+   margin-top: 50px;
+ }
+ .menu-item_soc p {
+    font-size: 0.7rem;
+    padding-top: 5px;
+ }
+}
+@media screen and (max-width: 992px) {
+  header .logo img {
+    width: 18%;
+   }
+  .menu-collaps {
+    position: absolute;
+    text-align: start;
+     -webkit-transition: 1s;
+        -moz-transition: 1s;
+         -ms-transition: 1s;
+          -o-transition: 1s;
+             transition: 1s;
+    width: 100%;
+    background: #2f1c53b5;
+    height: 100%;
+    top: 0;
+    padding: 35% 0 35% 9%;
+    z-index: 99;
+    left: 0;
+ }
+  header .menu ul {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-item a {
+    color: #FFF;
+  }
+  .login {
+    top: 18%;
+  }
+  .slick-next {
+    left: 5.5%;
+  }
+  .item {
+    margin-left: 3px;
+  }
+  .popular-text {
+    padding-bottom: 0;
+    height: auto;
+  }
+  .popular-text_btn span {
+    padding-right: 8px;
+  }
+  .events-list_img {
+    width: auto;
+  }
+  .form {
+    margin-left: 0;
+  }
+  .news-text {
+    width: 70%;
+  }
+  .gallery-box_bot .gallery_desc {
+    bottom: -45%;
+  }
+  .gallery_desc p {
+    padding: 0 2%;
+    }
+  .gallery_desc h3 {
+    padding: 0 15%;
+  }
+  .footer-text {
+    padding-bottom: 0;
+  }
+  .menu-item_soc {
+    width: 48%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   header {
+    height: 100vh;
+    }
+  .menu-collaps {
+     text-align: inherit;
+   }
+   #popular {
+    margin-top: -54px;
+    padding-bottom: 51px;
+   }
+   /*
+   }*/
+  .events-heading, .events-text {
+    width: 90% 
+    }
+  #subscribe {
+    padding: 6px 0 53px;
+     margin-top: 0; 
+  }
+  .gallery-box_bot .gallery_desc {
+    bottom: -40%;
+  }
+  .news-text, .gallery-text {
+    width: 90%;
+  }
+  #subscribe .form {
+    width: 100%;
+  }
+  .menu-item_soc {
+     padding-left: 0;
+     padding-bottom: 30px;
+  }
+   .footer-text, footer .logo {
+     text-align: center;
+   }
+  footer .logo {
+    width: auto;
+   }
+  footer .logo img {
+    width: auto;
+    text-align: center;
+   }
+}
+@media screen and (max-width: 767px) {
+  .popular-heading {
+     padding-left: 0;
+     }
+}
+@media screen and (max-width: 600px){
+  .d-sm-none {
+    display: none;
+  }
+  .footer-menu ul {
+    display: inline-block;
+  }
+  .footer-menu ul li, .footer-menu {
+    text-align: center;
+  }
+ #subscribe {
+    background-image: none;
+  }
+  .d-f {
+    display: block;
+  }
+  .form input {
+    width: 100%;
+    margin-top: 10px;
+   }
+    #section-form {
+    padding: 30px 0 62px;
+  }
+   #news {
+    padding: 30px 0 20px;
+  }
+  footer {
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .heading h1 {
+    font-size: 2rem;
+  }
+  #popular {
+    margin-top: -160px;
+  }
+  .calendar-desc {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 520px) {
+     
+}
+@media screen and (max-width: 460px) {
+  
+  #popular {
+    margin-top: -95px;
+   }
+  
+  .heading {
+    padding-top: 45px;
+    }
+   .gallery-box_up .gallery_desc {
+    bottom: -47%;
+  }
+  .gallery_desc p {
+    padding: 0 9%;
+  }
+  .icon-menu ul {
+    flex-direction: column-reverse;
+  }
+  .icon-menu ul li {
+    padding: 5px 0;
+  }
+  .lang {
+    width: 18%;
+  }
+  .sets {
+    width: 6%;
+   }
+   .hd-form_input {
+     left: 30px;
+   }
+   .social {
+    width: 65%;
+   }
+   .menu-item_soc {
+    width: 70%;
+    }
+    #events {
+      height: auto;
+    }
+   .events-btn {
+    padding-bottom: 20px;
+    display: grid;
+   }
+   .events-btn a {
+    padding: 0 10px;
+   }
+   .buy-btn {
+    margin-top: 15px;
+    margin-left: 0;
+   }
+   .subscribe-form {
+    display: block;
+   }
+   .subscribe-form input, .form-btn  {
+     width: 100%;
+     margin-bottom: 5px
+   }
+   .events-list_img {
+    width: 100%;
+    height: auto;
+    }
+    .login {
+    width: 310px;
+    top: 17%;
+    right: 7%;
+    }
+}
+@media screen and (max-width: 360px) {
+  .events-list_img {
+    width: 100%;
+    height: 100%;
+    }
+    .section-form_heading {
+    font-size: 2rem;
+    }
+    #events {
+    background-size: cover;
+   }
+}
+@media screen and (max-width: 340px) {
+.gallery-box_bot .gallery_desc p {
+    padding: 0 0%;
+    }
+    .gallery_desc h3 {
+     padding: 0 9%;
+    }
+    .gallery_desc p {
+    padding: 0;
+    }
+    .heading h1 {
+    font-size: 1.6rem;
+    padding-bottom: 17px;
+    }
+
+}
